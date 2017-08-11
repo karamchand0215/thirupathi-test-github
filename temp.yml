@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  tasks:
+  - name: temp zip
+    archive: 
+      path: /home/ubuntu/temp 
+      dest: /home/ubuntu/temp.zip

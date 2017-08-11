@@ -1,0 +1,9 @@
+TASK [debug msg={{ item }}] ******************************************************
+ok: [localhost] => (item=hello) => {
+    "item": "hello",
+    "msg": "hello"
+}
+ok: [localhost] => (item=world) => {
+    "item": "world",
+    "msg": "world"
+}

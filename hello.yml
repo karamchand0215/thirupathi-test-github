@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  tasks:
+  - name: TASK [debug msg={{ item }}]
+    debug: msg="{{ item }}"
+    with_items: 
+      - world
+      - hello
+

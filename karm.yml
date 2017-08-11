@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+  - name: bcflgknicfvk
+#    file: path=/home/ubuntu/tk state=touch
+    file:
+      path: /home/ubuntu/test.yml
+      state: absent

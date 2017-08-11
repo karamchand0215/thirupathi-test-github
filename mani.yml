@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  archive:
+    path: /path/to/foo
+    format: zip
